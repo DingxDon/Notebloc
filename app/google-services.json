@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "155155075944",
+    "project_id": "notebloc-c8dfb",
+    "storage_bucket": "notebloc-c8dfb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155155075944:android:ae1b76f73fbf8b6cadbcdd",
+        "android_client_info": {
+          "package_name": "com.example.notebloc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "155155075944-2b98m461sqjuq30sdi214f86pg5nsoce.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.notebloc",
+            "certificate_hash": "7a1001b1879dc8cc06c0e08433709090e02e054f"
+          }
+        },
+        {
+          "client_id": "155155075944-njjd19c3r5igb9c7rno6uoebjem6keh3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCad9w5ADMplvp791nfzlng342ORJEF-a0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "155155075944-njjd19c3r5igb9c7rno6uoebjem6keh3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateNote_Activity">
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/titlerec"
+        >
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:id="@+id/back_btn"
+            android:layout_marginTop="10dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/baseline_arrow_back_ios_24" />
+
+
+        <EditText
+            android:id="@+id/createtitlefornote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:hint="Placeholder Title"
+            android:paddingTop="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+    <EditText
+        android:id="@+id/createnoteforMainText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_below="@id/titlerec"
+        android:background="@color/white"
+        android:gravity="top|left"
+        android:hint="Placeholder MainText"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/savenote_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_gravity="bottom|end"
+        android:layout_marginBottom="30dp"
+        android:src="@drawable/baseline_save_24"
+        android:hapticFeedbackEnabled="true"
+        android:backgroundTint="#6BDAED"
+
+        app:maxImageSize="40dp"
+        android:padding="16dp"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"
+        android:id="@+id/Createnote_Progressbar"
+        android:layout_marginTop="10dp" />
+
+</RelativeLayout>
