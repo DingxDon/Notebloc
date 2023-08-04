@@ -5,9 +5,10 @@ Full CRUD Functionalty on the user's side.
 
 User Account Registration and Login.
 User Account Authenticaion before user can use the App.
-Notes Creation whcih are saved on Online Database (Firestore Database).
+Notes Creation which are saved on Online Database (Firestore Database).
 Notes then can be Edited or Deleted by the user.
 The edited note would show up in User's HomeScreen.
+User can have access to thier notes on any android device.
 
 
 To use the APP: - 
