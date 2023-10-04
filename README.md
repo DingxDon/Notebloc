@@ -14,5 +14,5 @@ User can have access to thier notes on any android device.
 To use the APP: - 
 Create account with Email and Password.
 Open your Email App and Verify your Account.
-On the Log-in Screen Signin using your email and password after you have verified your Account.
-Get access to the rest of the app.
+On the Account Screen Signin using your email and password after you have verified your Account.
+You will get access to the rest of the app.
